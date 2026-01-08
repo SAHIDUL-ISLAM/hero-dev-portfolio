@@ -1,8 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+p{
+    color: #474747;
+}
+header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-color: #FFF8F3;
+}
+.menu{
+    padding: 50px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu h1{
+    font-size: 45px;
+}
+.menu h1 span{
+    color: #FD6E0A;
+}
+.menu nav ul{
+    list-style: none;
+    display: flex;
+    gap: 51px;
+    align-items: center;
+}
+.menu nav ul li a{
+    text-decoration: none;
+    color: #474747;
+
+}
+.menu nav ul li button{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.menu nav ul li button a{
+    color: white;
+}
+/* menu end  */
+
+/* hero section  */
+.hero{
+    display: flex;
+    padding: 10px 30px 0px 230px;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero .hero-doc h2{
+    color: #474747;
+    font-size: 45px;
+}
+.hero .hero-doc h1{
+    font-size: 65px;
+}
+.hero .hero-doc p{
+    color: #474747;
+    margin: 20px 0px;
+}
+.hero .hero-doc button{
+    background-color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+.hero .hero-doc button:hover{
+    background-color: white;
+    color: #FD6E0A;
+}
+.hero img{
+    max-width: 585px;
+}
+
+/* hero section end  */
+
+/* about start  */
+#about{
+    margin: 100px 230px;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+}
+.container{
+    padding: 131px 157px;
+    text-align: center;
+}
+#about .container h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+#about .container p{
+    margin-bottom: 15px;
+}
+#about .container .about-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-nebf{
+    font-size: 15px;
+}
+/* about end  */
+
+/* card start  */
+#card-section .card-info{
+    text-align: center;
+}
+#card-section .card-info h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+#card-section .card-info p{
+    margin-bottom: 40px;
+    padding: 0px 386px;
+}
+#card-section .main-card{
+    padding: 0px 230px;
+    display: flex;
+    gap: 20px;
+}
+#card-section .main-card .card-category{
+    box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.153);
+    border-radius: 5px;
+    padding: 10px;
+}
+#card-section .main-card .card-category h3{
+    margin: 30px 0px;
+}
+/* card end */
+/* resume start  */
 .rusume .rusume-heading{
-    margin-bottom: 114px;
+    margin-bottom: 80px;
     font-size: 35px;
     font-weight: bold;
     text-align: center;
+    margin-top: 80px;
 }
 .rusume .card-container{
     margin: 0px 230px;
